@@ -1,0 +1,35 @@
+JDBC API : Java Database Connectivity
+
+	It is consist of classes and interfaces
+	which help us to perform operations on database (CRUD)
+	
+	All classes and interfaces are part of java.sql package
+	
+-------------------------------------------------------------------------------------------------------------------------
+
+	1. Create  a new project
+	2. Right-Click on project then select Build path and then select Configure Build Path
+	3. Select Libraries column
+	4. Select classpath and click Add External Jar 
+	5. Navigate to mysql-connector jar file select jar file and apply close
+	
+
+-------------------------------------------------------------------------------------------------------------------------
+	
+	1. Create a database
+	2. Create a table
+	
+	
+--------------------------------------------------------------------------------------------------------------------------
+
+	Important Methods
+		
+		1. createStatement() -> query does not have parameter
+		
+		2. prepareStatement() -> query does have parameters
+		
+			AND
+			
+		3. executeQuery() -> fetch data from database (Read)-> returns ResultSet
+		
+		4. executeUpdate() -> change the data from database (create, update, delete)-> returns no of rows affected
